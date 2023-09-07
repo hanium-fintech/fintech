@@ -1,0 +1,17 @@
+.clicker{
+    margin: 0 auto;
+    display: flex;
+    place-items: center;
+    
+    width: 200px;
+    height: 30px;
+    background-color: #272D4E;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.text{
+    color:white;
+    text-align: center;
+}
