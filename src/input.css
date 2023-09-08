@@ -1,22 +1,27 @@
-#main{
+/* input.css */
 
-    padding: 10px 20px 10px 20px;
+#mainbox {
+    padding: 20px 30px; /* 좀 더 넓은 padding 적용 */
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* 그림자 효과 추가 */
+    margin: 10px
+}
+
+.input_number {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px; 
     background: #F8F8F8;
     border-radius: 20px;
 }
 
-.input_number{
-    width: 300px;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-}
-
-.input_range{
+.input_range {
     width: 600px;
- 
 }
 
-.margin{
-    margin-bottom: 2000px;
+.margin {
+    margin-bottom: 20px;
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Optimal from "./Timal";
 import './Box.css'
+import './input.css'
 
 import Add from "./Add"
 import Subtract from "./Subtract"
@@ -119,8 +120,8 @@ export default function Show({ input, deadline }) {
     };
 
     return (
-        <div class="main">
-            <hr />
+        <div id ="mainbox">
+            
             
             <h2>우대조건</h2>
             <div>

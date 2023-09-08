@@ -1,10 +1,11 @@
+//App.jsx
+
 import React, { useState } from 'react';
 
 // Header,Input,Clicker 컴포넌트 불러와 사용
 import Header from './Header';
 import Input from './Input'
 import Clicker from './Clicker';
-import './input.css'
 
 
 
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-    <div id ="main">
+    <div id>
       <Header />
       
       <Input onNumberChange={handleNumberChange} onSliderChange={handleSliderChange} />
