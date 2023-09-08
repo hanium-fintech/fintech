@@ -18,7 +18,7 @@ export default function Clicker({ input, value }) {
     return (
         <div>
             <button class = "clicker" onClick={handleButtonClick}>
-                <p class = "text">금융상품 검색</p>
+                <p class = "text">금융상품 검색-&gt;</p>
                 </button>
             {showClick && (
                 <Show input={amount} deadline={deadlines} />

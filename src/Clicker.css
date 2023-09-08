@@ -1,17 +1,18 @@
 .clicker{
-    margin: 0 auto;
+    margin: 10;
     display: flex;
     place-items: center;
+    float: right;
     
-    width: 200px;
+    width: 120px;
     height: 30px;
     background-color: #272D4E;
     border-radius: 20px;
     border: none;
-    text-align: center;
+  
 }
 
 .text{
     color:white;
-    text-align: center;
+    ;
 }

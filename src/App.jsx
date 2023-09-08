@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Input from './Input'
 import Clicker from './Clicker';
+import './input.css'
 
 
 
@@ -23,11 +24,13 @@ function App() {
 
   return (
     <>
+    <div id ="main">
       <Header />
-      <hr />
+      
       <Input onNumberChange={handleNumberChange} onSliderChange={handleSliderChange} />
 
       <Clicker input={number} value={sliderValue} />
+      </div>
     </>
   );
 }

@@ -30,11 +30,12 @@ export default function Input({ onNumberChange, onSliderChange }) {
 
         
         <body>
-        <section id= "main">
-            <div>
+        
+            <div class>
                 <h1>예금비교</h1>
+                <hr />
                 <div>
-                    <h4>예치금액</h4>
+                    <p class="p1">예치금액</p>
                 </div>
                 <input 
                     class="input_number" 
@@ -46,8 +47,8 @@ export default function Input({ onNumberChange, onSliderChange }) {
 
             </div>
 
-            <div>
-                <h4>예치기한(개월)</h4>
+            <div >
+                <p class="p1">예치기한(개월)</p>
                 <input
                     class="input_range"
                     type="range"
@@ -69,7 +70,8 @@ export default function Input({ onNumberChange, onSliderChange }) {
                 <p>{sliderValue} 개월</p>
 
             </div>
-        </section>
+        <div class ="margin"/>
+    
         </body>
     );
 }
