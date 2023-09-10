@@ -1,3 +1,5 @@
+//show.jsx
+
 import { useState } from "react";
 import Optimal from "./Timal";
 import './Box.css'
@@ -6,6 +8,7 @@ import './input.css'
 import Add from "./Add"
 import Subtract from "./Subtract"
 import "./input.css"
+import "./show.css"
 
 
 
@@ -149,13 +152,29 @@ export default function Show({ input, deadline }) {
                 <hr />
 
                 <h2>우대 금리가 높은 순서에 따른 나열</h2>
-                <ul>
-                    {item.map((i) => (
-                        <li key={i.id}>
-                            id: {i.id}, 기본금리: {i.num.toFixed(3)}, 우대적용금리 {i.Calculation.toFixed(3)}
-                        </li>
-                    ))}
-                </ul>
+                {/* 테이블 헤더 */}
+<table>
+    <thead>
+        <tr>
+            <th className="table-header">은행</th>
+            <th className="table-header">상품명</th>
+            <th className="table-header">기본금리</th>
+            <th className="table-header">우대적용금리</th>
+        </tr>
+    </thead>
+    <tbody>
+        {item.map((i) => (
+            <tr key={i.id}>
+                <td></td>
+                <td>{i.id}</td>
+                <td>{i.num.toFixed(3)}</td>
+                <td>{i.Calculation.toFixed(3)}</td>
+            </tr>
+        ))}
+    </tbody>
+</table>
+
+
             </div>
         </div >
     );

@@ -17,15 +17,18 @@ export default function Clicker({ input, value }) {
 
   return (
     <div>
-      {showClick && (
-        <Show input={amount} deadline={deadlines} />
-      )}
       <div className="clicker-container">
         <button className="clicker" onClick={handleButtonClick}>
           <p className="text">금융상품 검색 -&gt;</p>
         </button>
+        <br/><br/>      {showClick && (
+        <Show input={amount} deadline={deadlines} />
+      )}
+        
       </div>
+      
       <p>{deadlines}</p>
+      
     </div>
   );
 }

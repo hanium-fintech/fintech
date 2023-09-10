@@ -4,10 +4,11 @@
     justify-content: center; /* 가운데 정렬을 위한 변경 */
     align-items: center;
     float: right;
-    width: 120px;
+    width: 130px;
     height: 30px;
     background-color: #272D4E;
     border-radius: 20px;
     border: none;
     color: white; /* 텍스트 색상을 여기로 이동 */
+    cursor: pointer;
 }
