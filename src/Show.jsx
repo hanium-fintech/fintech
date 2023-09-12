@@ -132,23 +132,22 @@ export default function Show({ input, deadline }) {
                     비대면가입
                 </span>
                 <span className={boxClassName(temp_data2)} onClick={() => selectedConditions.includes(temp_data2) ? handleRemoveCondition(temp_data2) : handleAddCondition(temp_data2)}>
-                    재예치
+                    카드
                 </span>
                 <span className={boxClassName(temp_data3)} onClick={() => selectedConditions.includes(temp_data3) ? handleRemoveCondition(temp_data3) : handleAddCondition(temp_data3)}>
-                    뭐라하노
+                    이체
                 </span>
                 <span className={boxClassName(temp_data4)} onClick={() => selectedConditions.includes(temp_data4) ? handleRemoveCondition(temp_data4) : handleAddCondition(temp_data4)}>
-                    모르겠다링~
+                    오픈뱅킹
                 </span>
 
                 <hr />
             </div>
             <div>
 
-                <ul>
+                
                     <Optimal data={item} input={input} />
-                </ul>
-                <hr />
+        
                 <hr />
 
                 <h2>우대 금리가 높은 순서에 따른 나열</h2>

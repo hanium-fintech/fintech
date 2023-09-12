@@ -3,7 +3,7 @@
 export default function Optimal({ data, input }) {
     return (
         <div>
-            <h2>추천드리는 상품 이게 최적이에요~</h2>
+            <h2>현재 최선의 선택은?</h2>
             <ul>
                 {data.map((item) => {
                     if (input > 0) {
@@ -29,7 +29,7 @@ export default function Optimal({ data, input }) {
                     }
 
                 })}
-                <span>아아아아아아아아아아아아아앙아아아</span>
+                <span></span>
             </ul>
         </div>
     )
