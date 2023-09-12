@@ -35,6 +35,7 @@ export default function Input({ onNumberChange, onSliderChange }) {
                 onChange={handleNumberChange}
                 placeholder="금액을 입력하세요"
             /> 원
+       
             <div>
                 <p className="p1">예치기한(개월)</p>
                 <input

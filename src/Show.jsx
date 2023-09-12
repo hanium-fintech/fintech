@@ -123,6 +123,7 @@ export default function Show({ input, deadline }) {
     };
 
     return (
+        <div>
         <div id ="mainbox">
             
             
@@ -140,16 +141,18 @@ export default function Show({ input, deadline }) {
                 <span className={boxClassName(temp_data4)} onClick={() => selectedConditions.includes(temp_data4) ? handleRemoveCondition(temp_data4) : handleAddCondition(temp_data4)}>
                     오픈뱅킹
                 </span>
-
-                <hr />
-            </div>
+                </div>
+</div>
+                <div id ="mainbox">
+                
+            
             <div>
             <h2>현재 최선의 선택은?</h2>
                     <div class ="optimalbox">
                     <Optimal data={item} input={input} />
                     </div>
                 <hr />
-
+                </div>
               
                 {/* 테이블 헤더 */}
                 <div class ="tablebox">
