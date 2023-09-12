@@ -3,7 +3,7 @@
 export default function Optimal({ data, input }) {
     return (
         <div>
-            <h2>현재 최선의 선택은?</h2>
+            <p>최선의 선택 결과들...</p>
             <ul>
                 {data.map((item) => {
                     if (input > 0) {

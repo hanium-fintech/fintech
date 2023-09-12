@@ -144,14 +144,15 @@ export default function Show({ input, deadline }) {
                 <hr />
             </div>
             <div>
-
-                
+            <h2>현재 최선의 선택은?</h2>
+                    <div class ="optimalbox">
                     <Optimal data={item} input={input} />
-        
+                    </div>
                 <hr />
 
-                <h2>우대 금리가 높은 순서에 따른 나열</h2>
+              
                 {/* 테이블 헤더 */}
+                <div class ="tablebox">
 <table>
     <thead>
         <tr>
@@ -172,6 +173,7 @@ export default function Show({ input, deadline }) {
         ))}
     </tbody>
 </table>
+</div>
 
 
             </div>

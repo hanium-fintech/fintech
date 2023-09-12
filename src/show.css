@@ -1,3 +1,20 @@
+.optimalbox{
+    padding: 1px 20px ;
+    background: #F8F8F8;
+    border-radius: 20px;
+    margin: 10px
+
+}
+.tablebox{
+    padding: 0px 20px 10px 20px;
+    background: #F8F8F8;
+    border-radius: 20px;
+    margin: 10px
+
+}
+
+
+
 /* 표 스타일 */
 table {
     width: 100%;
@@ -20,8 +37,8 @@ table td {
 /* 첫 번째 행의 스타일 (표 헤더) */
 table thead tr {
     height: 40px;
-    background-color: #272D4E;
-    color: white;
+    
+    color: #5c5c5c;
     font-weight: bold;
     border-radius: 20px 20px 0 0;
     
@@ -30,7 +47,7 @@ table thead tr {
 /* 나머지 행들의 스타일 */
 table tbody tr {
     height: 30px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
     background-color: white;
     /*border-radius: 30px; /* 둥근 경계선 추가 */
     transition: box-shadow 0.3s ease; /* 그림자 변경 트랜지션 */
@@ -38,6 +55,6 @@ table tbody tr {
 
 /* 마우스 호버 시 행 배경색 스타일 */
 table tbody tr:hover {
-    background-color: #fafafa;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* 그림자 더 진하게 */
+    background-color: #fdfdfd;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* 그림자 더 진하게 */
 }
