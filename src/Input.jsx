@@ -21,6 +21,7 @@ export default function Input({ onNumberChange, onSliderChange }) {
     };
 
     return (
+        <div class='space'>
         <div id ="mainbox">
             <h2>예금비교</h2>
             <hr />
@@ -54,6 +55,7 @@ export default function Input({ onNumberChange, onSliderChange }) {
                 </datalist>
                 <p>{sliderValue} 개월</p>
             </div>
+        </div>
         </div>
     );
 }
