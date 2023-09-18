@@ -33,6 +33,7 @@ export default function Show({ input, firstItem, secondItem }) {
                 <Condition name={"카드샤용"} preData={secondItem} nowdata={item} what={"카드샤용"} onDataChange={handleNewItem} />
                 <Condition name={"카드사용"} preData={secondItem} nowdata={item} what={"카드사용"} onDataChange={handleNewItem} />
             </div>
+            <hr />
 
             <div>
                 <h2>현재 최선의 선택은?</h2>
