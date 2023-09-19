@@ -36,17 +36,25 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
             }
             */}
 
+
             <tbody>
+
+            
                 <tr onClick={handleToggle} key={id}>
+
+                <div className ="garo">
                     <td>{bank_name}</td>
                     <td>{item_name}</td>
                     <td>{interest_rate}</td>
                     <td>{ca_interest_rate}</td>
+                </div>
 
-                </tr>
 
-                {toggle &&
-                    <div className="details-container">
+
+
+                <div className ="garo">
+                    {toggle &&
+                    <div>
                         <div className="details-item">
                             가입 방법 {method}
                             <br/>
@@ -54,15 +62,20 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
                         </div>
 
                         {link !== null && (
-                            <div className="details-item">
+                            <div >
                                 <a href={link} target="_blank"></a>
                             </div>
                         )}
                     </div>
                 }
+                </div>
 
-                
+                </tr>
+
+            
             </tbody>
+
+            
 
 
         </>

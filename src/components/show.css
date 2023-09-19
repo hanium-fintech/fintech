@@ -71,16 +71,9 @@ table tbody tr:hover {
 }
 
 /* CSS 스타일 시트 */
-.details-container {
-    background-color: #fff;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-
 .details-item{
-    margin: 5px 0;
+    width: 100%;
+    margin: 5px 20px;
     height: 55px;
     background-color: #fff;
     cursor: pointer;
@@ -101,4 +94,11 @@ table tbody tr:hover {
     box-shadow: 0px 0px 10px #d3d3d35d;
     transform: scale(1.0);
     opacity: 1.0;
+}
+
+
+.garo {
+    display: flex; /* Flexbox를 사용하여 자식 요소를 수평으로 배열합니다. */
+    justify-content: space-between; /* 각 자식 요소 사이의 공간을 균등하게 분배합니다. */
+    align-items: center; /* 자식 요소를 수직 중앙 정렬합니다. */
 }
