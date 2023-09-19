@@ -33,6 +33,7 @@ table td {
     padding: 10px;
     text-align: center;
     border: none;
+    
 
 
 }
@@ -101,4 +102,20 @@ table tbody tr:hover {
     display: flex; /* Flexbox를 사용하여 자식 요소를 수평으로 배열합니다. */
     justify-content: space-between; /* 각 자식 요소 사이의 공간을 균등하게 분배합니다. */
     align-items: center; /* 자식 요소를 수직 중앙 정렬합니다. */
+    padding: 10px;
+    text-align: center;
+    border: none;
+    
+}
+
+tbody td {
+    padding: 15px; 
+    margin-right: 20px;/* td 요소들의 패딩을 15px로 설정합니다. 원하는 크기로 조절할 수 있습니다. */
+    /* 다른 스타일을 추가하거나 수정할 수 있습니다. */
+}
+
+.sero {
+    display: flex; /* Flexbox를 사용하여 자식 요소를 수직으로 배열합니다. */
+    flex-direction: column; /* 자식 요소를 세로로 배열합니다. */
+    align-items: flex-start; /* 자식 요소를 수평으로 좌측 정렬합니다. */
 }

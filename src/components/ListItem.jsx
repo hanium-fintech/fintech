@@ -36,17 +36,17 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
             }
             */}
 
-
+<table>
             <tbody>
 
             
                 <tr onClick={handleToggle} key={id}>
 
-                <div >
-                    <td>{bank_name}</td>
-                    <td>{item_name}</td>
-                    <td>{interest_rate}</td>
-                    <td>{ca_interest_rate}</td>
+                <div ClassName ="sero">
+                    <td>{bank_name}</td> 
+                    <td>{item_name}</td> 
+                    <td>{interest_rate}</td> 
+                    <td>{ca_interest_rate}</td> 
                 </div>
 
 
@@ -74,6 +74,7 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
 
             
             </tbody>
+            </table>
 
             
 
