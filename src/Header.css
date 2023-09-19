@@ -8,26 +8,30 @@
 
         /* 헤더 스타일 설정 */
         header {
-            position: fixed; /* 헤더를 고정합니다. */
-            top: 0; /* 페이지 상단에 위치시킵니다. */
+            width: 100%;
+            position: fixed; 
+            top: 0; 
             left: 0;
             right: 0;
-        
+    
             background-color: #272D4E;
             color: #272D4E;
             text-align: center;
             height: 60px;
-            padding: 0px 30px;
+            padding: 0px 20px;
             z-index: 1000;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
             
         }
+
+        
 
         /* 내비게이션 스타일 설정 */
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 0px 30px;
             
         }
 

@@ -36,7 +36,7 @@ export default function Show({ input, firstItem, secondItem }) {
 
             </div>
             <hr />
-            
+
             <div>
                 <h2>현재 최적의 상품은?</h2>
                 <div className="optimalbox">
@@ -55,6 +55,7 @@ export default function Show({ input, firstItem, secondItem }) {
                             <th className="table-header">상품명</th>
                             <th className="table-header">기본금리</th>
                             <th className="table-header">우대적용금리</th>
+                            
                         </tr>
                     </thead>
 
