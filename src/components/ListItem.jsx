@@ -42,7 +42,7 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
             
                 <tr onClick={handleToggle} key={id}>
 
-                <div className ="garo">
+                <div >
                     <td>{bank_name}</td>
                     <td>{item_name}</td>
                     <td>{interest_rate}</td>

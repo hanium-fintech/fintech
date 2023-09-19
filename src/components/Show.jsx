@@ -51,10 +51,7 @@ export default function Show({ input, firstItem, secondItem }) {
                 <table>
                     <thead>
                         <tr>
-                            <th className="table-header">은행</th>
-                            <th className="table-header">상품명</th>
-                            <th className="table-header">기본금리</th>
-                            <th className="table-header">우대적용금리</th>
+                            
                         </tr>
                     </thead>
 
