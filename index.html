@@ -6,8 +6,127 @@
     <link rel="stylesheet" type="text/css" href="Header.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+
+
+    <!--시현님 네비게이션 바 코드-->
+    <style>
+    .top-nav {
+      max-width: 100%;
+      background-color: #272d4e;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+    }
+    
+    .logo-area {
+      display: flex;
+    }
+    
+    .menu-list {
+      display: block;
+    }
+    
+    .logo-image {
+      width: 160px;
+
+    }
+    
+    .logo-text {
+      color: #fff;
+      flex: none;
+      padding-top: 22px;
+      padding-left: 10px;
+      font-family: Montserrat, sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    
+    .top-menu-list {
+      justify-content: space-between;
+      padding-left: 0;
+      list-style: none;
+      display: flex;
+    }
+    
+    .top-menu-link {
+      color: #a8a8a8;
+      letter-spacing: .5px;
+      word-break: normal;
+      overflow-wrap: normal;
+      font-family: Montserrat, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      text-decoration: none;
+    }
+    
+    .top-menu-link.current {
+      color: #fff;
+    }
+    
+    .querry-area {
+      line-height: 14px;
+    }
+    
+    .list-item-block {
+      max-width: 40vw;
+      min-width: 20vw;
+      text-align: center;
+      justify-content: center;
+      margin-top: 10px;
+      margin-left: 0;
+      margin-right: auto;
+      padding: 10px 20px 8px;
+      display: flex;
+    }
+    
+    .list-item-highlight {
+      border-bottom: 2.5px solid #fff;
+      position: static;
+    }
+    
+    .querry-image {
+      width: 5vw;
+      height: 5vh;
+      line-height: 14px;
+    }
+  </style>
+    
+
+
   </head>
   <body>
+
+
+<!--시현님 네비게이션 바 코드-->
+    <div class="top-nav">
+        <div class="logo-area"><img src="/logo.png" loading="lazy" alt="" class="logo-image" width="3160px" >
+        <div class="logo-text">한이음</div>
+        </div>
+        <div class="menu-list">
+        <ul role="list" class="top-menu-list w-list-unstyled">
+            <li class="list-item">
+            <div class="list-item-block">
+                <a href="#" class="top-menu-link current">예적금</a>
+            </div>
+            <div class="list-item-highlight"></div>
+            </li>
+            <li class="list-item-2">
+            <div class="list-item-block">
+                <a href="#" class="top-menu-link">예금</a>
+            </div>
+            </li>
+            <li class="list-item-3">
+            <div class="list-item-block">
+                <a href="#" class="top-menu-link">적금</a>
+            </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

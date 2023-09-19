@@ -3,7 +3,10 @@ import "./Header.css"
 const logoPath = "/logo.png"
 
 export default function Header() {
+    
+    /*
     return (
+
     <header>
         <nav>
             <a href="#">
@@ -26,6 +29,7 @@ export default function Header() {
             </ul>
         </nav>
     </header>
-    )
+    
+    )*/
 
 };
