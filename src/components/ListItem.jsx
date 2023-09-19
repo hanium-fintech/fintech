@@ -42,6 +42,9 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
                     <td>{item_name}</td>
                     <td>{interest_rate}</td>
                     <td>{ca_interest_rate}</td>
+                    
+
+
                 </tr>
                 {toggle &&
                     <>
