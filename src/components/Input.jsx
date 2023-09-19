@@ -39,6 +39,7 @@ export default function Input({ onNumberChange, onSliderChange }) {
             <div className='space'>
                 <div id="mainbox">
 
+
                     <h2>예금비교</h2>
                     <hr />
                     <div>

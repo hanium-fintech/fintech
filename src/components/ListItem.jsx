@@ -43,22 +43,24 @@ export default function ListItem({ id, bank_name, item_name, interest_rate, meth
                     <td>{interest_rate}</td>
                     <td>{ca_interest_rate}</td>
 
-                    {toggle &&
-                    <>
-                        <div>
+                </tr>
+
+                {toggle &&
+                    <div className="details-container">
+                        <div className="details-item">
                             가입 방법 {method}
-                        </div>
-                        <div>
+                            <br/>
                             가입대상 {who}
                         </div>
+
                         {link !== null && (
-                            <div>
+                            <div className="details-item">
                                 <a href={link} target="_blank"></a>
-                            </div>)}
-                    </>
+                            </div>
+                        )}
+                    </div>
                 }
 
-                </tr>
                 
             </tbody>
 
