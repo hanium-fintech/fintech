@@ -1,10 +1,16 @@
+import "./Header.css"
+
+const logoPath = "/logo.png"
+
 export default function Header() {
     return (
-        <header>
+    <header>
         <nav>
             <a href="#">
                 <div>
-                    <h1>Hanium</h1>
+                    <img src={logoPath} 
+                    alt="Hanium Logo" 
+                    width="160px"/>
                 </div>
             </a>
             <ul>
@@ -19,7 +25,7 @@ export default function Header() {
                 </li>
             </ul>
         </nav>
-      </header>
+    </header>
     )
 
 };
