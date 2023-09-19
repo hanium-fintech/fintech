@@ -1,6 +1,8 @@
+import "./Header.css"
+
 export default function Header() {
     return (
-        <header>
+    <header>
         <nav>
             <a href="#">
                 <div>
@@ -19,7 +21,7 @@ export default function Header() {
                 </li>
             </ul>
         </nav>
-      </header>
+    </header>
     )
 
 };

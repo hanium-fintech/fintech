@@ -15,7 +15,7 @@
 }
 
 /* 데이터 필드와 값 사이의 가로 배치 */
-.list-item > div {
+.list-item>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,5 +23,6 @@
 
 /* 각 데이터 필드 스타일 */
 .value {
-    margin-left: 10px; /* 데이터 필드와 값 사이의 간격을 조절 */
+    margin-left: 10px;
+    /* 데이터 필드와 값 사이의 간격을 조절 */
 }

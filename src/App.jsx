@@ -6,7 +6,7 @@ import Header from './Header';
 import Input from './components/Input'
 import Clicker from './components/Clicker';
 
-/* TestData*/
+// TestData
 const first_item = [
   {
     id: 1,
@@ -83,18 +83,18 @@ const second_item = [
 function App() {
 
   const [firstItem, setFirstItem] = useState(first_item);
-  useEffect(() => {
-    fetch("/api/hello") // 첫번재 입력
-      .then((res) => { return res.json(); })
-      .then((data) => { setFirstItem(data); })
-  }, []);
+  // useEffect(() => {
+  //   fetch("/api/hello") // 첫번재 입력
+  //     .then((res) => { return res.json(); })
+  //     .then((data) => { setFirstItem(data); })
+  // }, []);
 
   const [secondItem, setSecondItem] = useState(second_item);
-  useEffect(() => {
-    fetch("/api/hellow") // 두번째 입력
-      .then((res) => { return res.json(); })
-      .then((data) => { setSecondItem(data); })
-  }, []);
+  // useEffect(() => {
+  //   fetch("/api/hellow") // 두번째 입력
+  //     .then((res) => { return res.json(); })
+  //     .then((data) => { setSecondItem(data); })
+  // }, []);
 
   // 최대금액
   const [number, setNumber] = useState("");
@@ -119,6 +119,7 @@ function App() {
     <>
       <Header />
       <hr />
+
       <Input onNumberChange={handleNumberChange} onSliderChange={handleSliderChange} />
 
       <Clicker input={number} value={sliderValue} firstItem={firstItem} secondItem={secondItem} />
