@@ -6,7 +6,7 @@ export default function Header() {
         <nav>
             <a href="#">
                 <div>
-                    <h1>Hanium</h1>
+                    <img src="./logo.png" alt="Hanium Logo" />
                 </div>
             </a>
             <ul>
